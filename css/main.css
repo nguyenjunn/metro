@@ -170,11 +170,12 @@ h4 {
 
  }
 
- p {
+ p , label {
   font-family: Verdana, Verdana, Tahoma, sans-serif;
   font-weight: 400;
   text-align: center;
   padding: 10px;
+  font-size: 12px;
 
  }
 
@@ -225,8 +226,9 @@ footer{
 }
 
 .icon1{
-  width: 3rem;
-  height: 3rem;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 20%;
 }
 
 .col-5-1 {
@@ -235,6 +237,67 @@ footer{
 
 }
 
+footer{margin:0;}
+
+.tweet {
+
+  width: 3rem;
+  height: 3rem;
+  border-radius: 70%;
+}
+
+.icon {
+
+  width: 3rem;
+  height: 3rem;
+  border-radius: 70%;
+}
+
+.col-2-2
+{
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.box {
+
+  width:28rem;
+  height: 15rem;
+}
+
+.banner {
+
+  width:58rem;
+  height: 15rem;
+
+}
+
+/* @media only screen and (min-width: 35em) {
+  /* Style adjustments for viewports that meet the condition */
+/* }
+
+@media print,
+(-webkit-min-device-pixel-ratio: 1.25),
+(min-resolution: 1.25dppx),
+(min-resolution: 120dpi) {
+  /* Style adjustments for high resolution devices */
 
 
+/* ==========================================================================
+   Print styles.
+   Inlined to avoid the additional HTTP request:
+   https://www.phpied.com/delay-loading-your-print-css/
+   ========================================================================== */
 
+/* @media print {
+
+  *,
+  *::before,
+  *::after {
+    background: #fff !important;
+    color: #000 !important;
+    /* Black prints faster */
+    /* box-shadow: none !important;
+    text-shadow: none !important;
+  } */  
+
+ 
